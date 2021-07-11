@@ -21,7 +21,7 @@
     border-color: tomato;  
     margin-top: 10px;
     float: left;
-    margin-left: 10px;
+    margin-left: 10%;
   }
   ul {
     list-style-type: none;
@@ -40,7 +40,7 @@
     background-color: wheat;
   }
   .kandungan {
-    width: 40%;
+    width: 45%;
     margin: auto;
     margin-top: 10px;
     background-color: tomato;
@@ -48,13 +48,24 @@
     border-color: teal;
     padding: 10px;
     float: right;
-    margin-right: 20%;
+    margin-right: 10%;
+  }
+  .vertical:after {
+    content:"";
+    display: table;
+    clear: both;
   }
   .kaki {
     width: 80%;
     margin: auto;
     border-style: solid;
     border-color: tomato;
+    background-color: teal;
+    width: 80%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
   }
   </style>
 </head>
@@ -64,7 +75,7 @@
 <div class="header">
    Vertical Menu
 </div>
-
+<div class="vertical">
 <!--Menu-->
 <div class="menu">
 <ul>
@@ -82,6 +93,7 @@
   Kata Laluan :<br>
   <input type="password" name="" id=""><br>
 </from>
+</div>
 </div>
 
 <!--Footer-->
